@@ -1,0 +1,86 @@
+.photo {
+    position: relative;
+    width: 50%; /* Adjust the width */
+    height: 1rem; /* Automatically adjust height */
+    display: block;
+    margin: 0 auto; /* Center the image */
+    margin-top: -27.2rem;
+    opacity: 50%;
+}
+
+.photo img {
+    width: 100%; /* Full width of the container */
+    height: 46rem; /* Keep aspect ratio */
+    display: block;
+    object-fit: cover; /* Cover the container size */
+    border-radius: 2rem;
+}
+
+.heading, .title {
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 3rem;
+    z-index: auto;
+    color: rgb(82, 5, 5);
+}
+
+.heading {
+    font-size: 1.5rem;
+    z-index: 3;
+    color: rgb(82, 5, 5);
+}
+
+.main {
+    position: relative;
+    text-align: center;
+    word-spacing: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-top: 2rem;
+    z-index: 3;
+}
+
+form {
+    display: inline-block; /* To center the form */
+    text-align: left; /* Align form elements to the left */
+    z-index: 3;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    margin-right: 10px;
+    z-index: 3;
+}
+
+input[type="name"], input[type="email"], input[type="password"], input[type="confirmpassword"] {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    z-index: 3;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #5f3812;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10rem;
+    cursor: pointer;
+    z-index: 3;
+}
+
+button:hover {
+    background-color: #a38562;
+}
+
+.close-button {
+    position: relative;
+    margin-left: 63rem;
+    z-index: 3;
+}
